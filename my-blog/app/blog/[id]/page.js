@@ -30,9 +30,9 @@ const Post = ({ params }) => {
   return (
     <div className="p-10">
       <h1 className="mb-10 fontbold text-lg inline-block bg-blue-700 text-white font-bold p-2">Post</h1>
-      <h1 className="fontbold text-lg mb-5">{post.title}</h1>
-      <p className='mb-5'>{post.content}</p>
-      <p className='mb-5'>{post.date}</p>
+      <h1 className="fontbold text-lg mb-5 text-white">{post.title}</h1>
+      <p className="mb-5 text-white">{post.content}</p>
+      <p className="mb-5 text-white">{post.date}</p>
     
     <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-10"> <Link href="/blog">Return</Link></button></div>
   );
